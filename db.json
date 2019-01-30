@@ -3,36 +3,36 @@
   "question": [
     {
       "id":1,
-      "question_label": "OK - busy home. What type of TV do you all like to watch?",
-      "question_desc": "All our packages come with over 300 channels - including Sky Atlantic, W and GOLD.",
+      "label": "OK - busy home. What type of TV do you all like to watch?",
+      "desc": "All our packages come with over 300 channels - including Sky Atlantic, W and GOLD.",
       "answer_type": "multiple_select",
-      "answer_selection": [
+      "answer": [
         {
+          "id":1,
           "answer_selection_text": "Entertainment",
-          "answer_selection_id": 1,
           "selected": false
         },
         {
           "answer_selection_text": "Sports",
-          "answer_selection_id": 2,
+          "id": 2,
           "selected": false
         },
         {
           "answer_selection_text": "Films",
-          "answer_selection_id": 3,
+          "id": 3,
           "selected": false
         },
         {
           "answer_selection_text": "Interactive one",
-          "answer_selection_id": 4
+          "id": 4, "selected" : false
         },
         {
           "answer_selection_text": "Moving Ability",
-          "answer_selection_id": 5
+          "id": 5,"selected": false
         },
         {
           "answer_selection_text": "movie",
-          "answer_selection_id": 6
+          "id": 6, "selected": false
         }
       ]
     },
@@ -44,11 +44,13 @@
       "answer_selection": [
         {
           "answer_selection_text": "Yes, please",
-          "answer_selection_id": 1
+          "id": 1,
+          "selected": false
         },
         {
           "answer_selection_text": "No, thanks",
-          "answer_selection_id": 2
+          "id": 2,
+          "selected":false
         }
       ]
     },
@@ -60,15 +62,18 @@
       "answer_selection": [
         {
           "answer_selection_text": "I'd like more channels",
-          "answer_selection_id": 1
+          "id": 1,
+          "selected":false
         },
         {
           "answer_selection_text": "I'm OK without HD",
-          "answer_selection_id": 2
+          "id": 2,
+          "selected":false
         },
         {
           "answer_selection_text": "I don't mind",
-          "answer_selection_id": 3
+          "id": 3,
+          "selected":false
         }
       ]
     },
@@ -80,15 +85,18 @@
       "answer_selection": [
         {
           "answer_selection_text": "I'd like more channels",
-          "answer_selection_id": 1
+          "id": 1,
+          "selected":false
         },
         {
           "answer_selection_text": "I'm OK without HD",
-          "answer_selection_id": 2
+          "id": 2,
+          "selected":false
         },
         {
           "answer_selection_text": "I don't mind",
-          "answer_selection_id": 3
+          "id": 3,
+          "selected":false
         }
       ]
     },
@@ -100,15 +108,18 @@
       "answer_selection": [
         {
           "answer_selection_text": "Yes, please",
-          "answer_selection_id": 1
+          "id": 1,
+          "selected":false
         },
         {
           "answer_selection_text": "No, thanks",
-          "answer_selection_id": 2
+          "id": 2,
+          "selected":false
         },
         {
           "answer_selection_text": "Both?, thanks",
-          "answer_selection_id": 3
+          "id": 3,
+          "selected":false
         }
       ]
     }
